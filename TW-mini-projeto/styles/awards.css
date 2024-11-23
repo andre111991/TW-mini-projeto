@@ -2,7 +2,6 @@
     /* background: red; */
     display: flex; gap: 12px;margin-top: 100px;
     padding-left: 48px;
-    /* background: red; */
 }
 
 .fotospremios{
@@ -15,4 +14,10 @@
     flex-direction: column;
     align-items: center;
     margin:30px 25px
+}
+
+.legendafoto{
+    
+
+
 }

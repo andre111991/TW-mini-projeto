@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin:30px 25px
+    margin:10px 25px
 }
 
 .titulo{
@@ -17,31 +17,31 @@
 .description {
     display: flex;
     justify-content: center;
-    margin-top: 5px
+    /* margin-top:  */
 }
 
-.goat-imagens{
-    /* display: flex;
-    flex-direction:row;
-    justify-content:center;
-    gap: 30px; 
-    align-items:center; */
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    place-content: center;
-    gap: 40px;
-    width: 70%;
-    height: min-content;
-    background-color: brown;
-}
-
-.box {
+.image-row {
+    display: flex;
+    justify-content: space-around; /* Distribui o espaço uniformemente */
+    align-items: center; /* Alinha verticalmente os itens */
+    margin: 1%;
+    gap: 100px;
     
 }
 
+.box {
+    text-align: center; 
+    width: 300px; 
+}
 
-.grid-img {
-    width: 100%;
-    height: 60%;
+.box img {
+    width: 100%; /* Ajusta a largura da imagem ao tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+.box p {
+    margin-top: 10px; /* Espaço entre a imagem e o título */
+    font-size: 14px; /* Tamanho do texto */
+    color: #333; /* Cor do texto */
 }
