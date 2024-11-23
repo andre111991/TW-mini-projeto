@@ -1,0 +1,10 @@
+@import url(./header.css);
+@import url(./imagensSeletor.css);
+@import url(./awards.css);
+
+
+
+
+body {
+    background-color: #cacaca;
+}

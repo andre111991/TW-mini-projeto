@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    background-color: var(--color-two);
+    border-radius: 10px;
+    height:90px
+}
+
+.siteName {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-left: 25px;
+}
+
+.siteIcon {
+    padding-top: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.website-name {
+    color: var(--main);
+    text-shadow: 10cap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+.goat-paragraph{
+    padding-right: 40px;
+    padding-top: 30px;
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 14px
+}
+
+/* ------------- */
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    gap: 10px
+}
+
+.options {
+    font-size: larger;
+    text-decoration: none;
+    color:maroon;
+    font-family: 'Lucida Handwriting', cursive;
+    padding: 10px 50px
+}
+
+.options:hover {
+    color: var(--main);
+    background-color: var(--sec);
+    border-radius: 100px;
+    transition: background-color 0.3s linear;
+}
+
