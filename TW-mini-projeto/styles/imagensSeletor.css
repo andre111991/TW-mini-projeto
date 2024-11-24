@@ -8,10 +8,16 @@
 
 .titulo{
     margin-bottom: 0px;
+    background-color:aliceblue;
+    border-radius: 40px;
+    height:120px
 }
 
 .subtitulo{
     margin: 0 0 25px 0;
+    background-color:aliceblue;
+    border-radius: 40px;
+    height:120px
 }
 
 .description {
@@ -25,7 +31,7 @@
     justify-content: space-around; /* Distribui o espaço uniformemente */
     align-items: center; /* Alinha verticalmente os itens */
     margin: 1%;
-    gap: 100px;
+    gap: 60px;
     
 }
 
@@ -35,7 +41,7 @@
 }
 
 .box img {
-    width: 100%; /* Ajusta a largura da imagem ao tamanho do contêiner */
+    width: 70%; /* Ajusta a largura da imagem ao tamanho do contêiner */
     height: auto; /* Mantém a proporção da imagem */
 }
 
