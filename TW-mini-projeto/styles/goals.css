@@ -28,6 +28,25 @@
     margin-right: auto;
     margin-left: auto;
     font-family: 'Lucida Handwriting', cursive;
-    
+}
 
+.titulo-pagina{
+    font-family: 'Lucida Handwriting', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px 25px
+}
+
+.tituloPagina{
+    margin-bottom:20px;
+    margin-top:20px;
+    background-color: rgba(240, 248, 255, 0.6);
+    border-radius: 20px;
+    width: auto;
+    padding: 10px;
+    height:70px;
+    justify-content: center;
+    text-shadow: 1px 1px #fff;
+    font-family: 'Lucida Handwriting', cursive;
 }

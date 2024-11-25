@@ -1,13 +1,13 @@
 .header {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; /*espaço entre os elementos do header */
     background-color: rgba(240, 248, 255, 0.6); /* Cor aliceblue com transparência */
-    border-radius: 40px;
-    height: 120px;
+    border-radius: 50px;  /*quao redondo e as bordas */
+    height: 120px; /*tamanho da caixa a volta do header */
     padding: 0 20px; /* Adiciona algum espaçamento interno */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombreamento opcional */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombreamento a volta da caixa*/
+    z-index: 1000;
 }
 
 /* Textos permanecem opacos */
@@ -15,9 +15,9 @@
     color: var(--main);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Adiciona leve sombra ao texto */
     font-family: 'Lucida Handwriting', cursive;
-    padding-right: 10%;
+    padding-right: 10px;
     padding-top: 20px;
-
+    text-shadow: 1px 1px #fff;
 }
 
 .goat-paragraph {
@@ -26,6 +26,7 @@
     font-family: 'Lucida Handwriting', cursive;
     font-size: 14px;
     color: #000; /* Garante que o texto seja opaco */
+    text-shadow: 1px 1px #fff;
 }
 
 .options {
@@ -37,12 +38,13 @@
 }
 
 .options:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o rato */
 }
 
 /* Ícone do site */
 .siteIcon {
     padding-top: 5px;
+    padding-left: 20px;
     width: 90px;
     height: auto;
 }

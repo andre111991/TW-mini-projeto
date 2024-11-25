@@ -7,23 +7,32 @@
 }
 
 .titulo{
-    margin-bottom: 0px;
-    background-color:aliceblue;
-    border-radius: 40px;
-    height:120px
+    margin-bottom:20px;
+    margin-top:20px;
+    background-color: rgba(240, 248, 255, 0.6);
+    border-radius: 20px;
+    width: auto;
+    padding: 10px;
+    height:70px;
+    justify-content: center;
+    text-shadow: 1px 1px #fff;
 }
 
 .subtitulo{
-    margin: 0 0 25px 0;
-    background-color:aliceblue;
-    border-radius: 40px;
-    height:120px
+    background-color: rgba(240, 248, 255, 0.6);
+    border-radius: 20px;
+    width: auto;
+    padding: 10px;
+    justify-content: center;
+    text-shadow: 1px 1px #fff;
 }
 
 .description {
     display: flex;
     justify-content: center;
-    /* margin-top:  */
+    background-color: rgba(240, 248, 255, 0.6);
+    border-radius: 20px;
+    width: auto;
 }
 
 .image-row {

@@ -7,6 +7,16 @@
     margin: 30px 25px
 }
 
+.socials-title{
+    justify-content: center;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.6);
+    border-radius: 20px;
+    width: auto;
+    font-family: 'Lucida Handwriting', cursive;
+    text-shadow: 1px 1px #fff;
+}
+
 .socials-links{
     display: flex;
     flex-direction: row;
