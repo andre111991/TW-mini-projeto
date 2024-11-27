@@ -16,13 +16,11 @@
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Adiciona leve sombra ao texto */
     font-family: 'Lucida Handwriting', cursive;
     padding-right: 10px;
-    padding-top: 20px;
     text-shadow: 1px 1px #fff;
 }
 
 .goat-paragraph {
     padding-right: 40px;
-    padding-top: 20px;
     font-family: 'Lucida Handwriting', cursive;
     font-size: 14px;
     color: #000; /* Garante que o texto seja opaco */
@@ -43,10 +41,12 @@
 
 /* Ícone do site */
 .siteIcon {
-    padding-top: 5px;
-    padding-left: 20px;
+    margin-right: 5px;
+    margin-left: 20px;
     width: 90px;
     height: auto;
+    border: 2px solid #ccc; /* Opcional: adiciona borda às imagens */
+    border-radius: 10px; /* Opcional: deixa as bordas arredondadas */
 }
 
 
@@ -57,7 +57,6 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 20px;
     gap: 0px
 }
 

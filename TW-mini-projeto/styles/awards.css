@@ -6,6 +6,8 @@
 
 .fotospremios{
     width: 300px;
+    border: 2px solid #ccc; /* Opcional: adiciona borda às imagens */
+    border-radius: 10px; /* Opcional: deixa as bordas arredondadas */
 }
 
 .titulo-awards{

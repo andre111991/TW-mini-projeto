@@ -1,0 +1,80 @@
+.titulo-nation{
+    font-family: 'Lucida Handwriting', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px 25px
+}
+
+.tituloNation{
+    margin-bottom:20px;
+    margin-top:20px;
+    background-color: rgba(240, 248, 255, 0.6);
+    border-radius: 20px;
+    width: auto;
+    padding: 10px;
+    height:70px;
+    justify-content: center;
+    text-shadow: 1px 1px #fff;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+.row {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 20px; /* Espaçamento entre as imagens */
+}
+.row img {
+    width: 500px; /* Ajusta o tamanho das imagens */
+    height: auto; /* Mantém a proporção original */
+    border: 2px solid #ccc; /* Opcional: adiciona borda às imagens */
+    border-radius: 10px; /* Opcional: deixa as bordas arredondadas */
+}
+
+.feitos {
+    font-family: 'Lucida Handwriting', cursive;
+    width: auto;
+    padding: 10px;
+}
+
+.teste{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.boxTitle{
+    text-align: center;
+}
+
+.Europeu {
+    background-color: rgba(240, 248, 255, 0.6);
+    border-radius: 20px;
+    width: auto;
+    padding: 10px;
+}
+
+.Mundial {
+    background-color: rgba(240, 248, 255, 0.6);
+    border-radius: 20px;
+    width: auto;
+    padding: 10px;
+}
+
+.nacoes {
+    background-color: rgba(240, 248, 255, 0.6);
+    border-radius: 20px;
+    width: auto;
+    padding: 10px;
+}
+
+.pessoal {
+    background-color: rgba(240, 248, 255, 0.6);
+    border-radius: 20px;
+    width: auto;
+    padding: 10px;
+}
+
+
+
