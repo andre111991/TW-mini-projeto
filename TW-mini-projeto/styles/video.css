@@ -12,9 +12,16 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100%; /* Faz o vídeo ocupar toda a largura */
-    height: auto; /* Mantém a proporção */
+    width: auto; /* Faz o vídeo ocupar toda a largura */
+    height: 100%; /* Mantém a proporção */
     transform: translate(-50%, -50%); /* Centraliza o vídeo */
     min-width: 100%; /* Garante que o vídeo cubra o espaço */
     min-height: 100%; /* Garante que o vídeo cubra o espaço */
+}
+
+@media screen and (max-width: 800px) {
+    .video-background video{
+        height: 100%;
+        width: auto;
+    }
 }

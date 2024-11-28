@@ -1,6 +1,7 @@
 .header {
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: space-between; /*espaço entre os elementos do header */
     background-color: rgba(240, 248, 255, 0.6); /* Cor aliceblue com transparência */
     border-radius: 50px;  /*quao redondo e as bordas */
@@ -69,3 +70,26 @@
 }
 
 
+
+@media screen and (max-width: 800px) {
+    .options{
+        font-size: 13px;
+        padding: 0px 10px;
+        transition: all 0.5s ease-in-out;
+    }
+    .website-name{
+        font-size: 8px;
+        transition: all 0.5s ease-in-out;
+    }
+    .goat-paragraph{
+        font-size: 8px;
+        transition: all 0.5s ease-in-out;
+    }
+    .siteIcon{
+        width: 50px;
+        margin-left: 10px;
+        margin-right: 0px;
+        transition: all 0.5s ease-in-out;
+        padding-right: 20px;
+    }
+}

@@ -66,3 +66,9 @@
     border: 2px solid #ccc; /* Opcional: adiciona borda às imagens */
     border-radius: 10px; /* Opcional: deixa as bordas arredondadas */
 }
+
+@media screen and (max-width: 800px) {
+    .imagens-seletor{
+        display: block;
+    }
+}
