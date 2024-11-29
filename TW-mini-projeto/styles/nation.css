@@ -21,7 +21,7 @@
 
 .row {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center; /* Centraliza verticalmente */
     gap: 20px; /* Espaçamento entre as imagens */
 }
